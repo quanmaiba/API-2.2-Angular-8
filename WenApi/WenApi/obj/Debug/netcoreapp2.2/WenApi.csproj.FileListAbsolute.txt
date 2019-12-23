@@ -1,0 +1,16 @@
+E:\Angular\API\WenApi\WenApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Angular\API\WenApi\WenApi\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Angular\API\WenApi\WenApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Angular\API\WenApi\WenApi\bin\Debug\netcoreapp2.2\WenApi.deps.json
+E:\Angular\API\WenApi\WenApi\bin\Debug\netcoreapp2.2\WenApi.runtimeconfig.json
+E:\Angular\API\WenApi\WenApi\bin\Debug\netcoreapp2.2\WenApi.runtimeconfig.dev.json
+E:\Angular\API\WenApi\WenApi\bin\Debug\netcoreapp2.2\WenApi.dll
+E:\Angular\API\WenApi\WenApi\bin\Debug\netcoreapp2.2\WenApi.pdb
+E:\Angular\API\WenApi\WenApi\obj\Debug\netcoreapp2.2\WenApi.RazorAssemblyInfo.cache
+E:\Angular\API\WenApi\WenApi\obj\Debug\netcoreapp2.2\WenApi.RazorAssemblyInfo.cs
+E:\Angular\API\WenApi\WenApi\obj\Debug\netcoreapp2.2\WenApi.AssemblyInfoInputs.cache
+E:\Angular\API\WenApi\WenApi\obj\Debug\netcoreapp2.2\WenApi.AssemblyInfo.cs
+E:\Angular\API\WenApi\WenApi\obj\Debug\netcoreapp2.2\WenApi.RazorTargetAssemblyInfo.cache
+E:\Angular\API\WenApi\WenApi\obj\Debug\netcoreapp2.2\WenApi.dll
+E:\Angular\API\WenApi\WenApi\obj\Debug\netcoreapp2.2\WenApi.pdb
+E:\Angular\API\WenApi\WenApi\obj\Debug\netcoreapp2.2\WenApi.csprojAssemblyReference.cache
