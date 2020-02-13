@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Picture.BAL Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Picture.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Picture.BAL Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Picture.BAL Interface.dll": {}
+        }
+      },
+      "Picture.DAL Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Picture.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Picture.DAL Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Picture.DAL Interface.dll": {}
+        }
+      },
+      "Picture.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Picture.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Picture.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Picture.BAL Interface/1.0.0": {
+      "type": "project",
+      "path": "../Picture.BAL Interface/Picture.BAL Interface.csproj",
+      "msbuildProject": "../Picture.BAL Interface/Picture.BAL Interface.csproj"
+    },
+    "Picture.DAL Interface/1.0.0": {
+      "type": "project",
+      "path": "../Picture.DAL Interface/Picture.DAL Interface.csproj",
+      "msbuildProject": "../Picture.DAL Interface/Picture.DAL Interface.csproj"
+    },
+    "Picture.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Picture.Domain/Picture.Domain.csproj",
+      "msbuildProject": "../Picture.Domain/Picture.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Picture.BAL Interface >= 1.0.0",
+      "Picture.DAL Interface >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Quan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Angular\\API\\Picture.Api\\Picture.BAL\\Picture.BAL.csproj",
+      "projectName": "Picture.BAL",
+      "projectPath": "E:\\Angular\\API\\Picture.Api\\Picture.BAL\\Picture.BAL.csproj",
+      "packagesPath": "C:\\Users\\Quan\\.nuget\\packages\\",
+      "outputPath": "E:\\Angular\\API\\Picture.Api\\Picture.BAL\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "E:\\Angular\\API\\Picture.Api\\Picture.BAL Interface\\Picture.BAL Interface.csproj": {
+              "projectPath": "E:\\Angular\\API\\Picture.Api\\Picture.BAL Interface\\Picture.BAL Interface.csproj"
+            },
+            "E:\\Angular\\API\\Picture.Api\\Picture.DAL Interface\\Picture.DAL Interface.csproj": {
+              "projectPath": "E:\\Angular\\API\\Picture.Api\\Picture.DAL Interface\\Picture.DAL Interface.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

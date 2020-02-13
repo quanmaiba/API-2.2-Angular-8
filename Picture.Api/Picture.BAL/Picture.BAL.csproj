@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Picture.BAL Interface\Picture.BAL Interface.csproj" />
+    <ProjectReference Include="..\Picture.DAL Interface\Picture.DAL Interface.csproj" />
+  </ItemGroup>
+
+</Project>

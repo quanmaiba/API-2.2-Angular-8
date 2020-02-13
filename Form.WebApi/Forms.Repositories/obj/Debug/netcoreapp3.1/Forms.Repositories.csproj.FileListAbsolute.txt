@@ -1,0 +1,5 @@
+E:\Angular\API\Form.WebApi\Forms.Repositories\bin\Debug\netcoreapp3.1\Forms.Repositories.deps.json
+E:\Angular\API\Form.WebApi\Forms.Repositories\bin\Debug\netcoreapp3.1\Forms.Repositories.dll
+E:\Angular\API\Form.WebApi\Forms.Repositories\obj\Debug\netcoreapp3.1\Forms.Repositories.AssemblyInfoInputs.cache
+E:\Angular\API\Form.WebApi\Forms.Repositories\obj\Debug\netcoreapp3.1\Forms.Repositories.AssemblyInfo.cs
+E:\Angular\API\Form.WebApi\Forms.Repositories\obj\Debug\netcoreapp3.1\Forms.Repositories.csprojAssemblyReference.cache

@@ -20,9 +20,12 @@ namespace WenApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<APIDBContext>(opt =>
             opt.UseSqlServer(Configuration.GetConnectionString("Connections")));
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,6 +35,15 @@ namespace WenApi
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseHttpsRedirection();
+
+            app.UseCors(x => x
+              .AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader()
+              .AllowCredentials());
+
+            app.UseMvc();
 
             app.Use(async (ctx, next) =>
             {
@@ -42,11 +54,13 @@ namespace WenApi
                 }
             });
 
-            app.UseCors(opt =>
-            opt.WithOrigins("http://localhost:4200")
-            .AllowAnyMethod()
-            .AllowAnyHeader());
-            app.UseMvc();
+            //app.UseCors(opt =>
+            //opt.WithOrigins("http://localhost:4300/")
+            //.AllowAnyMethod()
+            //.AllowAnyHeader());
+            //app.UseMvc();
+
+
         }
     }
 }

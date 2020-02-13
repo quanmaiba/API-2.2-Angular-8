@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WenApi.Models
 {
@@ -7,11 +8,11 @@ namespace WenApi.Models
         [Key]
         public int BankAccountId { get; set; }
 
-        //[Column(TypeName = "nvachar(20)")]
+        [Column(TypeName = "nvarchar(20)")]
         [Required]
         public string AccountNumber { get; set; }
 
-        //[Column(TypeName = "nvachar(100)")]
+        [Column(TypeName = "nvarchar(100)")]
         [Required]
         public string AccountHolder { get; set; }
 
@@ -20,7 +21,7 @@ namespace WenApi.Models
         public Bank Bank { get; set; }
 
         [Required]
-        //[Column(TypeName = "nvachar(20)")]
+        [Column(TypeName = "nvarchar(20)")]
         public string IFSC { get; set; }
     }
 }

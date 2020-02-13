@@ -1,0 +1,8 @@
+E:\Angular\API\Form.WebApi\Forms.DA\bin\Debug\netcoreapp3.1\Forms.DA.deps.json
+E:\Angular\API\Form.WebApi\Forms.DA\bin\Debug\netcoreapp3.1\Forms.DA.dll
+E:\Angular\API\Form.WebApi\Forms.DA\bin\Debug\netcoreapp3.1\Forms.DA.pdb
+E:\Angular\API\Form.WebApi\Forms.DA\obj\Debug\netcoreapp3.1\Forms.DA.csprojAssemblyReference.cache
+E:\Angular\API\Form.WebApi\Forms.DA\obj\Debug\netcoreapp3.1\Forms.DA.AssemblyInfoInputs.cache
+E:\Angular\API\Form.WebApi\Forms.DA\obj\Debug\netcoreapp3.1\Forms.DA.AssemblyInfo.cs
+E:\Angular\API\Form.WebApi\Forms.DA\obj\Debug\netcoreapp3.1\Forms.DA.dll
+E:\Angular\API\Form.WebApi\Forms.DA\obj\Debug\netcoreapp3.1\Forms.DA.pdb
